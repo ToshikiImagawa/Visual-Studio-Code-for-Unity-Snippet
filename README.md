@@ -1,4 +1,5 @@
-# Visual-Studio-Code-for-Unity-Snippet
+# Visual Studio Code の Unity用 独自スニペット
+### Awake、Start、Update などをスニペットとして追加します
 
-
-**Visual Studio Code のUnity用ユーザー独自のスニペット(C#)**
+下記フォルダー内にcsharp.jsonファイルを置いてください。
+Mac:/Users/[*hogehoge*]/Library/Application Support/Code/User/snippets
