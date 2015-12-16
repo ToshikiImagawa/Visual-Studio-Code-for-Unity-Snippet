@@ -1,0 +1,807 @@
+{
+    "Awake": {
+        "prefix": "Awake",
+        "body": [
+            "void Awake (){\n    {{}}\n}\n"
+        ],
+        "description": "スクリプトのインスタンスがロードされたときに呼び出されます"
+    },
+    "FixedUpdate": {
+        "prefix": "FixedUpdate",
+        "body": [
+            "void FixedUpdate (){\n    {{}}\n}\n"
+        ],
+        "description": "MonoBehaviour が有効の場合、この関数は毎回、固定フレームレートで呼び出されます"
+    },
+    "LateUpdate": {
+        "prefix": "LateUpdate",
+        "body": [
+            "void LateUpdate (){\n    {{}}\n}\n"
+        ],
+        "description": "Behaviour が有効の場合、LateUpdate は毎フレーム呼びだされます"
+    },
+    "OnAnimatorIK": {
+        "prefix": "OnAnimatorIK",
+        "body": [
+            "void OnAnimatorIK (int {{int}}){\n    {{}}\n}\n"
+        ],
+        "description": "アニメーション IK （インバースキネマティクス）をセットアップするときのコールバック"
+    },
+    "OnAnimatorMove": {
+        "prefix": "OnAnimatorMove",
+        "body": [
+            "void OnAnimatorMove (){\n    {{}}\n}\n"
+        ],
+        "description": "ルートモーションを修正するアニメーション動作を処理するコールバック"
+    },
+    "OnApplicationFocus": {
+        "prefix": "OnApplicationFocus",
+        "body": [
+            "void OnApplicationFocus (bool {{bool}}){\n    {{}}\n}\n"
+        ],
+        "description": "プレイヤーの取得またはフォーカスを失ったときに全てのゲームオブジェクトに送信されます"
+    },
+    "OnApplicationPause": {
+        "prefix": "OnApplicationPause",
+        "body": [
+            "void OnApplicationPause (bool {{bool}}){\n    {{}}\n}\n"
+        ],
+        "description": "プレイヤーが一時停止したときに全てのゲームオブジェクトに送信されます"
+    },
+    "OnApplicationQuit": {
+        "prefix": "OnApplicationQuit",
+        "body": [
+            "void OnApplicationQuit (){\n    {{}}\n}\n"
+        ],
+        "description": "アプリケーションが終了する前に全てのゲームオブジェクトで呼び出されます"
+    },
+    "OnAudioFilterRead": {
+        "prefix": "OnAudioFilterRead",
+        "body": [
+            "void OnAudioFilterRead (float[] {{float[]}}, int {{int}}){\n    {{}}\n}\n"
+        ],
+        "description": "OnAudioFilterRead が実装されている場合、Unity は DSP チェーンにカスタムフィルターを挿入します"
+    },
+    "OnBecameInvisible": {
+        "prefix": "OnBecameInvisible",
+        "body": [
+            "void OnBecameInvisible (){\n    {{}}\n}\n"
+        ],
+        "description": "OnBecameInvisible はレンダラーがカメラから見えなくなったときに呼び出されます"
+    },
+    "OnBecameVisible": {
+        "prefix": "OnBecameVisible",
+        "body": [
+            "void OnBecameVisible (){\n    {{}}\n}\n"
+        ],
+        "description": "OnBecameVisible はレンダラーが任意のカメラから見えるようになると呼び出されます"
+    },
+    "OnCollisionEnter": {
+        "prefix": "OnCollisionEnter",
+        "body": [
+            "void OnCollisionEnter (Collision {{Collision}}){\n    {{}}\n}\n"
+        ],
+        "description": "この collider/rigidbody は他の collider/rigidbody に触れたときに OnCollisionEnter は呼び出されます"
+    },
+    "OnCollisionEnter2D": {
+        "prefix": "OnCollisionEnter2D",
+        "body": [
+            "void OnCollisionEnter2D (Collision2D {{Collision2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "このオブジェクトのコライダーに他のコライダーが接触したときに送信されます(2D Physics のみ)"
+    },
+    "OnCollisionExit": {
+        "prefix": "OnCollisionExit",
+        "body": [
+            "void OnCollisionExit (Collision {{Collision}}){\n    {{}}\n}\n"
+        ],
+        "description": "この collider/rigidbody が他の collider/rigidbody と触れ合うのをやめたときに OnCollisionExit は呼び出されます。"
+    },
+    "OnCollisionExit2D": {
+        "prefix": "OnCollisionExit2D",
+        "body": [
+            "void OnCollisionExit2D (Collision2D {{Collision2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "このオブジェクトのコライダーと他のコライダーの接触が終わったときに送信されます(2D Physics のみ)"
+    },
+    "OnCollisionStay": {
+        "prefix": "OnCollisionStay",
+        "body": [
+            "void OnCollisionStay (Collision {{Collision}}){\n    {{}}\n}\n"
+        ],
+        "description": "OnCollisionStay は rigidbody/collider が他の rigidbody/collider に触れている間毎フレーム 1 度だけ呼び出されます。"
+    },
+    "OnCollisionStay2D": {
+        "prefix": "OnCollisionStay2D",
+        "body": [
+            "void OnCollisionStay2D (Collision2D {{Collision2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "このオブジェクトのコライダーに他のコライダーが接触し続けている毎フレームの間、送信されます(2D Physics のみ)"
+    },
+    "OnConnectedToServer": {
+        "prefix": "OnConnectedToServer",
+        "body": [
+            "void OnConnectedToServer (){\n    {{}}\n}\n"
+        ],
+        "description": "サーバーとの接続に成功したときにクライアント上で呼び出されます"
+    },
+    "OnControllerColliderHit": {
+        "prefix": "OnControllerColliderHit",
+        "body": [
+            "void OnControllerColliderHit (ControllerColliderHit {{ControllerColliderHit}}){\n    {{}}\n}\n"
+        ],
+        "description": "OnControllerColliderHit は移動中にコントローラーがコライダーにヒットしたときに呼び出されます"
+    },
+    "OnDestroy": {
+        "prefix": "OnDestroy",
+        "body": [
+            "void OnDestroy (){\n    {{}}\n}\n"
+        ],
+        "description": "この関数は MonoBehaviour が破棄されるときに呼び出されます"
+    },
+    "OnDisable": {
+        "prefix": "OnDisable",
+        "body": [
+            "void OnDisable (){\n    {{}}\n}\n"
+        ],
+        "description": "この関数は Behaviour が無効/非アクティブになったときに呼び出されます"
+    },
+    "OnDisconnectedFromServer": {
+        "prefix": "OnDisconnectedFromServer",
+        "body": [
+            "void OnDisconnectedFromServer (NetworkDisconnection {{NetworkDisconnection}}){\n    {{}}\n}\n"
+        ],
+        "description": "サーバーとの接続が失われたか切断されたときにクライアント上で呼び出されます"
+    },
+    "OnDrawGizmos": {
+        "prefix": "OnDrawGizmos",
+        "body": [
+            "void OnDrawGizmos (){\n    {{}}\n}\n"
+        ],
+        "description": "選択可能にしたり、常に描画したいギズモを描画するには OnDrawGizmos を使用します"
+    },
+    "OnDrawGizmosSelected": {
+        "prefix": "OnDrawGizmosSelected",
+        "body": [
+            "void OnDrawGizmosSelected (){\n    {{}}\n}\n"
+        ],
+        "description": "選択しているオブジェクトのみのギズモを描画したい場合は OnDrawGizmosSelected を使用します"
+    },
+    "OnEnable": {
+        "prefix": "OnEnable",
+        "body": [
+            "void OnEnable (){\n    {{}}\n}\n"
+        ],
+        "description": "この関数はオブジェクトが有効/アクティブになったときに呼び出されます"
+    },
+    "OnFailedToConnect": {
+        "prefix": "OnFailedToConnect",
+        "body": [
+            "void OnFailedToConnect (NetworkConnectionError {{NetworkConnectionError}}){\n    {{}}\n}\n"
+        ],
+        "description": "接続試行が何らかの理由で失敗したときにクライアント上で呼び出されます"
+    },
+    "OnFailedToConnectToMasterServer": {
+        "prefix": "OnFailedToConnectToMasterServer",
+        "body": [
+            "void OnFailedToConnectToMasterServer (NetworkConnectionError {{NetworkConnectionError}}){\n    {{}}\n}\n"
+        ],
+        "description": "MasterServer への接続に問題がある場合に、クライアントまたはサーバーで呼び出されます"
+    },
+    "OnGUI": {
+        "prefix": "OnGUI",
+        "body": [
+            "void OnGUI (){\n    {{}}\n}\n"
+        ],
+        "description": "OnGUI はレンダリングと GUI イベントのハンドリングのために呼び出されます"
+    },
+    "OnJointBreak": {
+        "prefix": "OnJointBreak",
+        "body": [
+            "void OnJointBreak (float {{float}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnLevelWasLoaded": {
+        "prefix": "OnLevelWasLoaded",
+        "body": [
+            "void OnLevelWasLoaded (int {{int}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMasterServerEvent": {
+        "prefix": "OnMasterServerEvent",
+        "body": [
+            "void OnMasterServerEvent (MasterServerEvent {{MasterServerEvent}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseDown": {
+        "prefix": "OnMouseDown",
+        "body": [
+            "void OnMouseDown (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseDrag": {
+        "prefix": "OnMouseDrag",
+        "body": [
+            "void OnMouseDrag (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseEnter": {
+        "prefix": "OnMouseEnter",
+        "body": [
+            "void OnMouseEnter (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseExit": {
+        "prefix": "OnMouseExit",
+        "body": [
+            "void OnMouseExit (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseOver": {
+        "prefix": "OnMouseOver",
+        "body": [
+            "void OnMouseOver (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseUp": {
+        "prefix": "OnMouseUp",
+        "body": [
+            "void OnMouseUp (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMouseUpAsButton": {
+        "prefix": "OnMouseUpAsButton",
+        "body": [
+            "void OnMouseUpAsButton (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnNetworkInstantiate": {
+        "prefix": "OnNetworkInstantiate",
+        "body": [
+            "void OnNetworkInstantiate (NetworkMessageInfo {{NetworkMessageInfo}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnParticleCollision": {
+        "prefix": "OnParticleCollision",
+        "body": [
+            "void OnParticleCollision (GameObject {{GameObject}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPlayerConnected": {
+        "prefix": "OnPlayerConnected",
+        "body": [
+            "void OnPlayerConnected (NetworkPlayer {{NetworkPlayer}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPlayerDisconnected": {
+        "prefix": "OnPlayerDisconnected",
+        "body": [
+            "void OnPlayerDisconnected (NetworkPlayer {{NetworkPlayer}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostRender": {
+        "prefix": "OnPostRender",
+        "body": [
+            "void OnPostRender (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreCull": {
+        "prefix": "OnPreCull",
+        "body": [
+            "void OnPreCull (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreRender": {
+        "prefix": "OnPreRender",
+        "body": [
+            "void OnPreRender (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnRectTransformRemoved": {
+        "prefix": "OnRectTransformRemoved",
+        "body": [
+            "void OnRectTransformRemoved (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnRenderImage": {
+        "prefix": "OnRenderImage",
+        "body": [
+            "void OnRenderImage (RenderTexture {{RenderTexture}}, RenderTexture {{RenderTexture}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnRenderObject": {
+        "prefix": "OnRenderObject",
+        "body": [
+            "void OnRenderObject (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSerializeNetworkView": {
+        "prefix": "OnSerializeNetworkView",
+        "body": [
+            "void OnSerializeNetworkView (BitStream {{BitStream}}, NetworkMessageInfo {{NetworkMessageInfo}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnServerInitialized": {
+        "prefix": "OnServerInitialized",
+        "body": [
+            "void OnServerInitialized (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerEnter": {
+        "prefix": "OnTriggerEnter",
+        "body": [
+            "void OnTriggerEnter (Collider {{Collider}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerEnter2D": {
+        "prefix": "OnTriggerEnter2D",
+        "body": [
+            "void OnTriggerEnter2D (Collider2D {{Collider2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerExit": {
+        "prefix": "OnTriggerExit",
+        "body": [
+            "void OnTriggerExit (Collider {{Collider}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerExit2D": {
+        "prefix": "OnTriggerExit2D",
+        "body": [
+            "void OnTriggerExit2D (Collider2D {{Collider2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerStay": {
+        "prefix": "OnTriggerStay",
+        "body": [
+            "void OnTriggerStay (Collider {{Collider}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTriggerStay2D": {
+        "prefix": "OnTriggerStay2D",
+        "body": [
+            "void OnTriggerStay2D (Collider2D {{Collider2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnValidate": {
+        "prefix": "OnValidate",
+        "body": [
+            "void OnValidate (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWillRenderObject": {
+        "prefix": "OnWillRenderObject",
+        "body": [
+            "void OnWillRenderObject (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "Reset": {
+        "prefix": "Reset",
+        "body": [
+            "void Reset (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "Start": {
+        "prefix": "Start",
+        "body": [
+            "void Start (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "Update": {
+        "prefix": "Update",
+        "body": [
+            "void Update (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnBeginDrag": {
+        "prefix": "OnBeginDrag",
+        "body": [
+            "void OnBeginDrag (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnDeselect": {
+        "prefix": "OnDeselect",
+        "body": [
+            "void OnDeselect (BaseEventData {{BaseEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnDrag": {
+        "prefix": "OnDrag",
+        "body": [
+            "void OnDrag (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnDrop": {
+        "prefix": "OnDrop",
+        "body": [
+            "void OnDrop (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnEndDrag": {
+        "prefix": "OnEndDrag",
+        "body": [
+            "void OnEndDrag (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnInitializePotentialDrag": {
+        "prefix": "OnInitializePotentialDrag",
+        "body": [
+            "void OnInitializePotentialDrag (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnMove": {
+        "prefix": "OnMove",
+        "body": [
+            "void OnMove (AxisEventData {{AxisEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnRebuildRequested": {
+        "prefix": "OnRebuildRequested",
+        "body": [
+            "void OnRebuildRequested (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnScroll": {
+        "prefix": "OnScroll",
+        "body": [
+            "void OnScroll (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSelect": {
+        "prefix": "OnSelect",
+        "body": [
+            "void OnSelect (BaseEventData {{BaseEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSubmit": {
+        "prefix": "OnSubmit",
+        "body": [
+            "void OnSubmit (BaseEventData {{BaseEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTransformChildrenChanged": {
+        "prefix": "OnTransformChildrenChanged",
+        "body": [
+            "void OnTransformChildrenChanged (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnBeforeSerialize": {
+        "prefix": "OnBeforeSerialize",
+        "body": [
+            "void OnBeforeSerialize (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnBeforeTransformParentChanged": {
+        "prefix": "OnBeforeTransformParentChanged",
+        "body": [
+            "void OnBeforeTransformParentChanged (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnCanvasGroupChanged": {
+        "prefix": "OnCanvasGroupChanged",
+        "body": [
+            "void OnCanvasGroupChanged (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnDidApplyAnimationProperties": {
+        "prefix": "OnDidApplyAnimationProperties",
+        "body": [
+            "void OnDidApplyAnimationProperties (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnFillVBO": {
+        "prefix": "OnFillVBO",
+        "body": [
+            "void OnFillVBO (List&lt;UIVertex&gt; {{List&lt;UIVertex&gt;}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPointerClick": {
+        "prefix": "OnPointerClick",
+        "body": [
+            "void OnPointerClick (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPointerDown": {
+        "prefix": "OnPointerDown",
+        "body": [
+            "void OnPointerDown (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPointerEnter": {
+        "prefix": "OnPointerEnter",
+        "body": [
+            "void OnPointerEnter (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPointerExit": {
+        "prefix": "OnPointerExit",
+        "body": [
+            "void OnPointerExit (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPointerUp": {
+        "prefix": "OnPointerUp",
+        "body": [
+            "void OnPointerUp (PointerEventData {{PointerEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnRectTransformDimensionsChange": {
+        "prefix": "OnRectTransformDimensionsChange",
+        "body": [
+            "void OnRectTransformDimensionsChange (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSiblingGraphicEnabledDisabled": {
+        "prefix": "OnSiblingGraphicEnabledDisabled",
+        "body": [
+            "void OnSiblingGraphicEnabledDisabled (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnTransformParentChanged": {
+        "prefix": "OnTransformParentChanged",
+        "body": [
+            "void OnTransformParentChanged (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnUpdateSelected": {
+        "prefix": "OnUpdateSelected",
+        "body": [
+            "void OnUpdateSelected (BaseEventData {{BaseEventData}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "UpdateGeometry": {
+        "prefix": "UpdateGeometry",
+        "body": [
+            "void UpdateGeometry (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "UpdateMaterial": {
+        "prefix": "UpdateMaterial",
+        "body": [
+            "void UpdateMaterial (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnAssignMaterialModel": {
+        "prefix": "OnAssignMaterialModel",
+        "body": [
+            "Material OnAssignMaterialModel (Material {{Material}}, Renderer {{Renderer}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnHierarchyChange": {
+        "prefix": "OnHierarchyChange",
+        "body": [
+            "void OnHierarchyChange (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnInspectorUpdate": {
+        "prefix": "OnInspectorUpdate",
+        "body": [
+            "void OnInspectorUpdate (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnLostFocus": {
+        "prefix": "OnLostFocus",
+        "body": [
+            "void OnLostFocus (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessAllAssets": {
+        "prefix": "OnPostprocessAllAssets",
+        "body": [
+            "void OnPostprocessAllAssets (string[] {{string[]}}, string[] {{string[]}}, string[] {{string[]}}, string[] {{string[]}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessAssetbundleNameChanged": {
+        "prefix": "OnPostprocessAssetbundleNameChanged",
+        "body": [
+            "void OnPostprocessAssetbundleNameChanged (string {{string}}, string {{string}}, string {{string}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessAudio": {
+        "prefix": "OnPostprocessAudio",
+        "body": [
+            "void OnPostprocessAudio (AudioClip {{AudioClip}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessGameObjectWithUserProperties": {
+        "prefix": "OnPostprocessGameObjectWithUserProperties",
+        "body": [
+            "void OnPostprocessGameObjectWithUserProperties (GameObject {{GameObject}}, string[] {{string[]}}, object[] {{object[]}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessModel": {
+        "prefix": "OnPostprocessModel",
+        "body": [
+            "void OnPostprocessModel (GameObject {{GameObject}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessSpeedTree": {
+        "prefix": "OnPostprocessSpeedTree",
+        "body": [
+            "void OnPostprocessSpeedTree (GameObject {{GameObject}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessSprites": {
+        "prefix": "OnPostprocessSprites",
+        "body": [
+            "void OnPostprocessSprites (Texture2D {{Texture2D}}, Sprite[] {{Sprite[]}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPostprocessTexture": {
+        "prefix": "OnPostprocessTexture",
+        "body": [
+            "void OnPostprocessTexture (Texture2D {{Texture2D}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreprocessAudio": {
+        "prefix": "OnPreprocessAudio",
+        "body": [
+            "void OnPreprocessAudio (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreprocessModel": {
+        "prefix": "OnPreprocessModel",
+        "body": [
+            "void OnPreprocessModel (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreprocessSpeedTree": {
+        "prefix": "OnPreprocessSpeedTree",
+        "body": [
+            "void OnPreprocessSpeedTree (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnPreprocessTexture": {
+        "prefix": "OnPreprocessTexture",
+        "body": [
+            "void OnPreprocessTexture (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnProjectChange": {
+        "prefix": "OnProjectChange",
+        "body": [
+            "void OnProjectChange (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSceneGUI": {
+        "prefix": "OnSceneGUI",
+        "body": [
+            "void OnSceneGUI (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnSelectionChange": {
+        "prefix": "OnSelectionChange",
+        "body": [
+            "void OnSelectionChange (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWillCreateAsset": {
+        "prefix": "OnWillCreateAsset",
+        "body": [
+            "void OnWillCreateAsset (string {{string}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWillDeleteAsset": {
+        "prefix": "OnWillDeleteAsset",
+        "body": [
+            "AssetDeleteResult OnWillDeleteAsset (string {{string}}, RemoveAssetOptions {{RemoveAssetOptions}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWillMoveAsset": {
+        "prefix": "OnWillMoveAsset",
+        "body": [
+            "AssetMoveResult OnWillMoveAsset (string {{string}}, string {{string}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWillSaveAssets": {
+        "prefix": "OnWillSaveAssets",
+        "body": [
+            "void OnWillSaveAssets (string[] {{string[]}}){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWizardCreate": {
+        "prefix": "OnWizardCreate",
+        "body": [
+            "void OnWizardCreate (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWizardOtherButton": {
+        "prefix": "OnWizardOtherButton",
+        "body": [
+            "void OnWizardOtherButton (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    },
+    "OnWizardUpdate": {
+        "prefix": "OnWizardUpdate",
+        "body": [
+            "void OnWizardUpdate (){\n    {{}}\n}\n"
+        ],
+        "description": "-----"
+    }
+}
